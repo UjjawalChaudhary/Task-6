@@ -1,0 +1,71 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 35%;
+}
+
+.header {
+    background-color: #b8d0f4;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 2%;
+    box-sizing: border-box;
+}
+
+.contact-info, .social-links {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 10%;
+}
+
+.contact-info a, .social-links a {
+    color: black;
+    text-decoration: none;
+    margin-right: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info a img, .social-links a img {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.contact-info a:last-child, .social-links a:last-child {
+    margin-right: 0;
+}
+
+
+
+
+/* slider.css 
+
+.slideshow-container {
+    margin-top: 0%;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.mySlides {
+    display: none;
+    width: 100%;
+}
+
+.mySlides img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover; 
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 3s;
+}
+*/
